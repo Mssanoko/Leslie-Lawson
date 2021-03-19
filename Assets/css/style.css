@@ -1,5 +1,6 @@
 body {
-    background-color: whitesmoke;
+    background-color: whitesmoke ;
+    background-image: radial-gradient(#fff, #ac6b53);
 }
 
 /* NavBar */
@@ -9,16 +10,14 @@ body {
     font-size: .5em;
     margin-left: -20px;
 }
-.navbar {
-    color: #ac6b53;
-}
+
 .nav-link {
     font-family: stoic;
     font-size: 27px;
-    color: #000;
+    color: #fff;
 }
 a:hover  {
-    color: #fff;
+    color: #ac6b53;
 }
 
 /* Footer */

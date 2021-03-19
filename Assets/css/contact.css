@@ -1,3 +1,7 @@
+body{
+  background-image: radial-gradient(#fff, #ac6b53);
+}
+
 /* Contact Cards */
 
 .contactcard .card {
