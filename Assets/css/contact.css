@@ -1,0 +1,32 @@
+/* Contact Cards */
+
+.contactcard .card {
+    border: 0;
+    border-bottom: 0.25rem solid  #ac6b53;
+  }
+  .contactcard .card i {
+    color: #ac6b53 ;
+  }
+  .contactcard .card h4 {
+    font-size: 0.9rem;
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-style: bolder;
+  }
+  
+  .contactcard .card hr {
+    border-color:  #ac6b53;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  
+  .contactcard .card a {
+    color: black;
+  }
+  .contactcard .card .location {
+    color: black !important;
+  }
+  .contactcard .card a:hover {
+    color:#ac6b53 ;
+  }
