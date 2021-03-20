@@ -3,7 +3,7 @@ body {
 }
 /* Photo */
 .aboutpicture {
-    padding-top: 150px;
+    padding-top: 200px;
 }
 .aboutMePhoto {
     border: 5px solid #000;
@@ -14,11 +14,12 @@ body {
     margin-right: auto;
     
 }
-
 .aboutMePhoto:hover {
     box-shadow: 0 0 2px 1px rgba(228, 160, 55, 2);
     
 }
+
+/* Biographie */
 
 
 

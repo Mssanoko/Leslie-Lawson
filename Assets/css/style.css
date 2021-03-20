@@ -10,7 +10,9 @@ body {
     font-size: .5em;
     margin-left: -20px;
 }
-
+.navbar-toggler {
+    color:white
+}
 .nav-link {
     font-family: stoic;
     font-size: 27px;
@@ -19,6 +21,24 @@ body {
 a:hover  {
     color: #ac6b53;
 }
+
+/* Title Session */
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+       color: #000;
+      background: #ac6b53;
+      background: -moz-linear-gradient(left,#000  0%,#ac6b53 100%) !important;
+      background: -webkit-linear-gradient(left,#000  0%,#ac6b53 100%) !important;
+      background: linear-gradient(to right,#000  0%,#ac6b53  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
 
 /* Footer */
 .footer {
