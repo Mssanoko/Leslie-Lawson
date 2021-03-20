@@ -37,7 +37,8 @@ video {
     font-size: 25px;
   }
   .btnIntro {
-      color: #fff
+      color: #fff;
+      cursor: pointer;
   }
 
   .btnIntro:hover  {
