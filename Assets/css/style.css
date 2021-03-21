@@ -45,3 +45,26 @@ a:hover  {
     font-family: stoic;
     font-size: 25px;
 }
+
+@media screen and (max-width: 812px) {
+    .logoIntro {
+        width: 200px
+    }
+    .introContent {
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logoIntro {
+        width: 200px
+    }
+    .introContent h1 {
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .nav-link {
+        font-family: stoic;
+    }
+}
