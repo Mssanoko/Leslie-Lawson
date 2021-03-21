@@ -44,3 +44,38 @@ video {
   .btnIntro:hover  {
     color: #ac6b53;
 }
+
+/* Services boxes */
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 812px) {
+    .logoIntro {
+        width: 200px
+    }
+    .introContent {
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logoIntro {
+        width: 200px
+    }
+    .introContent h1 {
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logoIntro {
+        width: 100px;
+    }
+    .introContent h1 {
+        font-size: 15px
+    }
+    .introContent {
+       margin-top: -50px
+    }
+}

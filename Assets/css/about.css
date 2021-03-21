@@ -23,6 +23,16 @@ body {
 
 
 
+/* Development tools */
+.icon {
+    width: 7%;
+    padding: .6rem;
+    filter: brightness(0) invert(0.6); 
+}
+.icon:hover {
+    filter: brightness(2) invert(0); 
+}
+
 /* Social Media Bar */
 .ct-socials {
     position: fixed;
