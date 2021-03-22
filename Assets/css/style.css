@@ -46,6 +46,10 @@ a:hover  {
     font-size: 25px;
 }
 
+footer {
+    padding-top: 20px;
+  }
+
 /* Mobile */
 @media screen and (max-width: 812px) {
     .nav-link {
