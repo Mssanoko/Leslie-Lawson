@@ -107,3 +107,9 @@ body{
   .contactcard .card a:hover {
     color:#ac6b53 ;
   }
+
+@media screen and (min-width: 768px) {
+  footer{
+    padding-top: 20px;
+  }
+}
