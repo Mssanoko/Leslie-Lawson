@@ -156,3 +156,11 @@ video {
     }
 }
 
+@media screen and (min-width: 411px) {
+    .logoIntro {
+        width: 120px;
+    }
+    .introContent h1 {
+        font-size: 15px
+    }
+}

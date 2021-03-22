@@ -75,7 +75,7 @@ footer {
       }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     .nav-link {
         font-family: 'Lobster Two', cursive;
     }
