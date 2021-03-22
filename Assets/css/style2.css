@@ -43,7 +43,7 @@ footer {
   }
 
 /* Mobile */
-@media screen and (max-width: 812px) {
+@media screen and (min-width: 812px) {
     .nav-link {
         font-family: 'Lobster Two', cursive;
     }
