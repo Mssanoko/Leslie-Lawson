@@ -44,31 +44,21 @@ footer {
 
 /* Mobile */
 
-@media screen and (max-width: 812px) {
+@media screen and (min-width: 736px) {
     .nav-link {
         font-family: 'Lobster Two', cursive;
     }
     .footer {
         font-family: 'Lobster Two', cursive;
         font-size: 20px;
-        text-align: center;
-    }
-}
-@media screen and (max-width: 768px) {
-    .nav-link {
-        font-family: 'Lobster Two', cursive;
-    }
-    .footer {
-        font-family: 'Lobster Two', cursive;
-        font-size: 20px;
-        text-align: center;
+        text-align: center; 
     }
     footer {
         padding-top: 20px;
       }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 375px) {
     .nav-link {
         font-family: 'Lobster Two', cursive;
     }
