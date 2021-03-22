@@ -49,17 +49,33 @@ a:hover  {
 /* Mobile */
 @media screen and (max-width: 812px) {
     .nav-link {
-        font-family: stoic;
+        font-family: 'Lobster Two', cursive;
+    }
+    .footer {
+        font-family: 'Lobster Two', cursive;
+        font-size: 20px;
+        text-align: center;
     }
 }
 @media screen and (max-width: 768px) {
     .nav-link {
-        font-family: stoic;
+        font-family: 'Lobster Two', cursive;
+    }
+    .footer {
+        font-family: 'Lobster Two', cursive;
+        font-size: 20px;
+        text-align: center;
+        
     }
 }
 
 @media screen and (max-width: 375px) {
     .nav-link {
-        font-family: stoic;
+        font-family: 'Lobster Two', cursive;
+    }
+    .footer {
+        font-family: 'Lobster Two', cursive;
+        font-size: 20px;
+        text-align: center;
     }
 }

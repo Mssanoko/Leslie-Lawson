@@ -38,3 +38,21 @@ a:hover  {
     font-family: stoic;
     font-size: 25px;
 }
+
+/* Mobile */
+@media screen and (max-width: 812px) {
+    .nav-link {
+        font-family: 'Lobster Two', cursive;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav-link {
+        font-family: 'Lobster Two', cursive;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .nav-link {
+        font-family: 'Lobster Two', cursive;
+    }
+}
