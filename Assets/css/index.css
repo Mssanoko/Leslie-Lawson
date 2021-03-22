@@ -156,9 +156,9 @@ video {
     }
 }
 
-@media screen and (min-width: 411px) {
+@media screen and (max-width: 414px) {
     .logoIntro {
-        width: 120px;
+        width: 100px;
     }
     .introContent h1 {
         font-size: 15px
