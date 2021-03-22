@@ -46,6 +46,7 @@ a:hover  {
     font-size: 25px;
 }
 
+/* Mobile */
 @media screen and (max-width: 812px) {
     .nav-link {
         font-family: stoic;
