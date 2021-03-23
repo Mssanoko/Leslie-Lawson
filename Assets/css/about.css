@@ -85,10 +85,9 @@ body {
     color: black;
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 736px) {
     .icon {
         width: 15%;
-        padding: .6rem;
         filter: brightness(0) invert(0.6); 
     }
 }
