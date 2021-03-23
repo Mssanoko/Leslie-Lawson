@@ -78,8 +78,10 @@ body{
 /* Contact Cards */
 
 .contactcard .card {
+    
     border: 0;
-    border-bottom: 0.25rem solid  #ac6b53;
+    border-bottom: 0.25rem solid  #8B4513;
+    border-radius: 50%;
   }
   .contactcard .card i {
     color: #ac6b53 ;

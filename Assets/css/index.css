@@ -76,6 +76,17 @@ video {
         font-size: 20px;
     }
 }
+@media screen and (max-width: 446px) {
+    .logoIntro {
+        width: 120px ;
+    }
+    .introContent h1 {
+        font-size: 18px;
+    }
+    .introContent {
+        margin-top: -75px;
+    }
+}
 @media screen and (max-width: 414px) {
     .logoIntro {
         width: 120px ;
