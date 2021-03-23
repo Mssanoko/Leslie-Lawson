@@ -46,104 +46,56 @@ video {
 }
 
 /* Services boxes */
-.box {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px
-}
 
-.our-services {
-    margin-top: 75px;
-    padding-bottom: 30px;
-    padding: 0 60px;
-    min-height: 198px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #fff;
-    transition: all .4s ease-in-out;
-    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
-}
-
-.our-services .icon {
-    margin-bottom: -21px;
-    transform: translateY(-50%);
-    text-align: center
-}
-
-.our-services:hover h4,
-.our-services:hover p {
-    color: #fff
-}
-
-.speedup:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
-}
-
-.settings:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
-}
-
-.privacy:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
-}
-
-.backups:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
-}
-
-.ssl:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
-}
-
-.database:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
-}
 
 
 /* Mobile */
 
-@media screen and (min-width: 812px) {
+@media screen and (max-width: 812px) {
     .logoIntro {
         width: 200px;
     }
     .introContent h1 {
-        font-size: 150px ;
+        font-size: 30px;
     }
-}
-@media screen and (min-width: 736px) {
-   
-   
     .introContent {
-        margin-top: -100px !important;
+        margin-top: -25px;
     }
 }
-
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 736px) {
+   
     .logoIntro {
-        width: 120px !important;
+        width: 190px ;
+    }
+    .introContent {
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .introContent h1 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .logoIntro {
+        width: 120px ;
     }
     .introContent h1 {
-        font-size: 18px !important ;
+        font-size: 18px;
     }
     .introContent {
-        margin-top: -65px !important;
+        margin-top: -75px;
     }
 }
-
-@media screen and (min-width: 280px) {
+@media screen and (max-width: 320px) {
+    .logoIntro {
+        width: 110px
+    }
+    .introContent h1 {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 280px) {
     .logoIntro {
         width: 80px;
     }
@@ -151,6 +103,6 @@ video {
         font-size: 10px
     }
     .introContent {
-        margin-top: -50px;
+        margin-top: -70px;
     }
 }
