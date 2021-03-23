@@ -115,53 +115,31 @@ video {
 
 /* Mobile */
 
-@media screen and (max-width: 812px) {
+@media screen and (min-width: 812px) {
     .logoIntro {
-        width: 200px
-    }
-    .introContent {
-        margin-top: -50px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .logoIntro {
-        width: 200px
+        width: 200px;
     }
     .introContent h1 {
-        font-size: 20px
+        font-size: 150px ;
+    }
+}
+@media screen and (min-width: 736px) {
+   
+   
+    .introContent {
+        margin-top: -100px !important;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 414px) {
     .logoIntro {
-        width: 100px;
+        width: 120px !important;
     }
     .introContent h1 {
-        font-size: 15px
+        font-size: 18px !important ;
     }
     .introContent {
-       margin-top: -50px
-    }
-}
-
-@media screen and (max-width: 411px) {
-    .logoIntro {
-        width: 100px;
-    }
-    .introContent h1 {
-        font-size: 15px
-    }
-    .introContent {
-       margin-top: -50px
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .logoIntro {
-        width: 100px;
-    }
-    .introContent h1 {
-        font-size: 15px
+        margin-top: -65px !important;
     }
 }
 
@@ -171,5 +149,8 @@ video {
     }
     .introContent h1 {
         font-size: 10px
+    }
+    .introContent {
+        margin-top: -50px;
     }
 }

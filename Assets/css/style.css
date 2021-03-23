@@ -89,3 +89,12 @@ footer {
         padding-top: 20px;
       }
 }
+
+@media screen and (max-width: 280px) {
+    .imghead {
+        width: auto;
+        height: 10em;
+        font-size: .3em;
+        margin-left: 3px;
+    }
+}
