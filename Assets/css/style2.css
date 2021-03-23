@@ -58,17 +58,7 @@ footer {
       }
 }
 
-@media screen and (max-width: 375px) {
-    .nav-link {
-        font-family: 'Lobster Two', cursive;
-    }
-    .footer {
-        font-family: 'Lobster Two', cursive;
-        font-size: 20px;
-        text-align: center;
-    }
-}
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .nav-link {
         font-family: 'Lobster Two', cursive;
     }
@@ -81,7 +71,7 @@ footer {
         padding-top: 20px;
       }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     .nav-link {
         font-family: 'Lobster Two', cursive;
     }
