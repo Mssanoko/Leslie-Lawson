@@ -24,26 +24,13 @@ video {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    padding-top: 100px
+    padding-top: 100px;
+    
   }
   .logoIntro {
-      width: 300px;
+      width: 500px;
       opacity: 0.7;
   }
-  .introContent h1 {
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 25px;
-  }
-  .btnIntro {
-      color: #fff;
-      cursor: pointer;
-  }
-
-  .btnIntro:hover  {
-    color: #ac6b53;
-}
 
 /* Services boxes */
 
@@ -53,14 +40,12 @@ video {
 
 @media screen and (max-width: 812px) {
     .logoIntro {
-        width: 200px;
-    }
-    .introContent h1 {
-        font-size: 30px;
+        width: 380px;
     }
     .introContent {
-        margin-top: -25px;
+        margin-top: -40px;
     }
+    
 }
 @media screen and (max-width: 736px) {
    
@@ -80,30 +65,19 @@ video {
     .logoIntro {
         width: 120px ;
     }
-    .introContent h1 {
-        font-size: 18px;
-    }
     .introContent {
         margin-top: -75px;
     }
 }
 @media screen and (max-width: 414px) {
     .logoIntro {
-        width: 120px ;
+        width: 200px ;
     }
-    .introContent h1 {
-        font-size: 18px;
-    }
-    .introContent {
-        margin-top: -75px;
-    }
+    
 }
 @media screen and (max-width: 320px) {
     .logoIntro {
-        width: 110px
-    }
-    .introContent h1 {
-        font-size: 13px;
+        width: 180px
     }
 }
 @media screen and (max-width: 280px) {
