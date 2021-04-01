@@ -31,15 +31,17 @@ video {
   justify-content: center;
 }
 .illustration { 
-  width: 350px;
-  height: 500px;
-  padding-top: 100px;
-  
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  margin-top: 70px;
+  margin-left: 70px;
 }
 .left{
   width: 50%;
-  height: 600px;
+  min-height: 400px;
   border-radius: 8px;
+  background-color: whitesmoke;
   
   
 }
@@ -52,7 +54,6 @@ video {
   padding: 30px;
   border-radius: 8px;
   color: #fff;
-  margin-left: -150px;
 }
 .right h1 {
   font-size: 40px;
