@@ -20,7 +20,9 @@ body {
 
 /* Biographie */
 
-
+a {
+    color: #000;
+}
 
 /* Development tools */
 .icon {

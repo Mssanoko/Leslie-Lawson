@@ -14,7 +14,33 @@
 a:hover  {
     color: #ac6b53;
 }
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    border-bottom-style: solid;
+    border-color: #000;
+}
+.navbar.active .nav-link {
+    color: #000; 
+}
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #000;
+    text-decoration: none;
+}
+.navbar.active .navbar-brand {
+    color: #000;
+}
 
+  /* Change navbar styling on small viewports */
+  @media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #000;
+    }
+  }
 /* Title Session */
 
 .title {
