@@ -30,17 +30,18 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .illustration { 
-  width: 300px;
+  width: 80%;
   height: 300px;
   border-radius: 8px;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-left: 70px;
 }
 .left{
   width: 50%;
-  min-height: 400px;
+  min-height: 300px;
   border-radius: 8px;
   background-color: whitesmoke;
   
@@ -48,7 +49,7 @@ video {
 }
 .right {
   width: 50%;
-  min-height: 400px;
+  min-height: 300px;
   background-color: #8B4513;
   align-items: center;
   justify-content: center;
@@ -159,20 +160,18 @@ video {
     flex-direction: column;
   }
   .left {
-    width: 100%
+    width: 100%;
+    background-color: transparent !important;
   }
   .right {
     width: 100%;
     margin: 0;
   }
   .illustration {
-    width: 200px;
+    width: 80%;
     height: 300px;
-    margin-left: 70px;
+    margin-left: 40px;
   }
 }
-@media only screen and (min-width: 768px) {
-  .illustration {
-    width: 80%;
-  }
+
 }
