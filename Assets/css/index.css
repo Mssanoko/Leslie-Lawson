@@ -168,9 +168,7 @@ video {
   .illustration {
     width: 200px;
     height: 300px;
-  
-  margin-top: 70px;
-  margin-left: 70px;
+    margin-left: 70px;
   }
 }
 @media only screen and (min-width: 768px) {
