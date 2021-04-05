@@ -6,6 +6,7 @@ body {
     margin-top: 150px;
 }
 /* Projects */
+
 .image-project {
     width: 500px;
     height: 300px;
@@ -13,8 +14,10 @@ body {
 
 #projects-container {
     margin: 1em auto;
-    width: 382px;
-    height: 292px;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
   }
 
   #projects-container img {
@@ -47,6 +50,19 @@ body {
     from { opacity: 1.0; }
     to   { opacity: 0.0; }
   }
+
+.project-description {
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 8px;
+    background: #fff;
+     margin: 1em auto;
+     width: 500px;
+     height: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
