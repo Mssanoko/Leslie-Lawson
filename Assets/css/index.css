@@ -90,12 +90,10 @@ video {
   background:#fff;
   text-align: center;
   padding:30px 25px;
-  
   box-shadow: 0 0 25px rgba(0,0,0,0.2);
   border-radius: 200px;
   margin-bottom: 30px;
   border:5px solid rgba(0,0,0,0.2) ;
-  -webkit-transition:all 0.5s ease 0s;
   transition:all 0.5s ease 0s;
 }
 .item:hover{
@@ -104,25 +102,12 @@ video {
   -webkit-transition:all 0.5s ease 0s;
   transition:all 0.5s ease 0s;
 }
-.item:hover .item,
-.item:hover span.icon{
-  border-radius: 10px;
-  -webkit-transition:all 0.5s ease 0s;
-  transition:all 0.5s ease 0s;
-}
-.item:hover h6,
-.item:hover p{
-  color:#fff;
-  -webkit-transition:all 0.5s ease 0s;
-  transition:all 0.5s ease 0s;
-}
+
+
 .item .icon{
   font-size:40px;
   margin-bottom: 25px;
-  color:#AB6056;
-  width:90px;
   height:90px;
-  line-height: 96px;
   border-radius: 50px;
 }
 .item .feature_box_col_one{
@@ -172,4 +157,5 @@ video {
     height: 300px;
     margin-left: 40px;
   }
+  
 }
