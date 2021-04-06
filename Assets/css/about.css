@@ -20,10 +20,28 @@ body {
 
 /* Biographie */
 
-a {
-    color: #000;
+.email {
+    color:black;
 }
-
+.title2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+    line-height: 48px;
+    padding-bottom: 48px;
+       color: #000;
+      background: #ac6b53;
+      background: -moz-linear-gradient(left,#000  0%,#ac6b53 100%) !important;
+      background: -webkit-linear-gradient(left,#000  0%,#ac6b53 100%) !important;
+      background: linear-gradient(to right,#000  0%,#ac6b53  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+  p {
+      color: white;
+      font-size: 18px;
+  }
 /* Development tools */
 .icon {
     width: 7%;
