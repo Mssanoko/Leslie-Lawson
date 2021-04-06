@@ -157,5 +157,8 @@ video {
     height: 300px;
     margin-left: 40px;
   }
+  #services {
+    padding-top: 50px;
+  }
   
 }
