@@ -21,7 +21,8 @@ body {
 /* Biographie */
 
 .email {
-    color:black;
+    color: #fff;
+    text-decoration: underline;
 }
 .title2 {
     text-align: center;
