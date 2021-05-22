@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
 /* NavBar */
 .imghead {
     width: auto;
