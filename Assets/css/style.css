@@ -15,11 +15,17 @@ body {
     background-color: #f5f5f5;
     color:#523a28;
     min-height: 100vh;
+    font-family: 'Roboto Mono', monospace;
 }
 
 section {
     padding-top: 25px;
 }
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+} 
+
 
 /* unvisited link */
 a:link {
@@ -91,7 +97,6 @@ a:link {
         color: #523a28;
     }
 }
-
 
 
 
