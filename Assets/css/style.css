@@ -246,9 +246,12 @@ a:hover .code-github {
 
 .contact {
     background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(164, 117, 81, 0.3)), url('https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80');
-    margin-top: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
 }
 
 
@@ -326,6 +329,7 @@ a:hover .code-github {
 	border-color:#523a28;
 	transition:0.5s;
 }
+
 
 /* Social Media Icons */
 
