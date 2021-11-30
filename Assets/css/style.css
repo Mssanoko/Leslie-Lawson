@@ -241,7 +241,14 @@ a:hover .code-github {
     padding: 16px 32px;
 }
 
-
+@media screen and (max-width: 768px) {
+    .contact {
+        margin-top: 50px; 
+        background-size: cover;
+        height: 90vh;
+        background-size: cover;
+    }
+}
 /* Contact Session */
 
 .contact {
@@ -403,4 +410,24 @@ footer {
     footer {
         padding-top: 20px;
       }
+}
+
+@media screen and (max-width: 375px) {
+    .contact {
+        margin-top: 50px; 
+        background-size: cover;
+        height: 115vh;
+        background-size: cover;
+        margin-bottom: 200px;
+        
+    }
+    .contact-block {
+        height: 100%;
+    }
+  
+    .footer {
+        font-size: 16px;
+        text-align: center; 
+    }
+ 
 }
