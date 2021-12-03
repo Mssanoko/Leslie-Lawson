@@ -299,6 +299,7 @@ a:hover .code-github {
  }
  .overlay-item a.btn {
    margin: 10px 0;
+   font-size: 14px;
  }
 
  .overlay-effect img {
@@ -426,6 +427,10 @@ a:hover .code-github {
     background: rgba(0, 0, 0, 0.8);
     margin: 0 0 0 0;
  }
+ .fall-item a {
+    font-size: 14px;
+ }
+ 
  .fall-item p {
     font-style: italic;
     position: relative;
