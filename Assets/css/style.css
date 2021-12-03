@@ -271,6 +271,8 @@ a:hover .code-github {
     position: relative;
     overflow: hidden;
     text-align: center;
+    border-radius: 5%;
+    border: solid #523a28 ;
 
  }
  .overlay-item .mask {
@@ -407,7 +409,8 @@ a:hover .code-github {
     overflow: hidden;
     position: relative;
     text-align: center;
-    
+    border-radius: 5%;
+    border: solid #523a28 ;
  }
  .fall-item .mask,.fall-item .content {
     width: 100%;
