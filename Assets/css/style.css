@@ -596,7 +596,7 @@ footer {
 
 /* Mobile */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     .contact {
         margin-top: 50px; 
         background-size: cover;
@@ -617,9 +617,9 @@ footer {
     footer {
         padding-top: 20px;
       }
-}
+} */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .contact {
         margin-top: 50px; 
         background-size: cover;
@@ -634,9 +634,9 @@ footer {
     footer {
         padding-top: 20px;
       }
-}
+} */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
     .contact {
         margin-top: 50px; 
         background-size: cover;
@@ -663,7 +663,6 @@ footer {
     .contact-block1 {
         flex-direction: column;
         display: flex;
-       
     }
     .overlay-item  {
         width: 250px;  
