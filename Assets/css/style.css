@@ -271,10 +271,8 @@ a:hover .code-github {
     position: relative;
     overflow: hidden;
     text-align: center;
-    border-radius: 5%;
-    border: solid #523a28 ;
-
  }
+
  .overlay-item .mask {
     display: block;
     position: absolute;
@@ -289,6 +287,8 @@ a:hover .code-github {
     height: auto;
     x-margin-right: auto;
     x-margin-left: auto;
+    border-radius: 5%;
+    border: solid #523a28 ;
  }
  .overlay-item h3 {
     text-transform: uppercase;
@@ -409,8 +409,7 @@ a:hover .code-github {
     overflow: hidden;
     position: relative;
     text-align: center;
-    border-radius: 5%;
-    border: solid #523a28 ;
+    
  }
  .fall-item .mask,.fall-item .content {
     width: 100%;
@@ -425,6 +424,8 @@ a:hover .code-github {
     position: relative;
     width: 100%;
     height: auto;
+    border-radius: 5%;
+    border: solid #523a28 ;
  }
  .fall-item h2 {
     text-transform: uppercase;
@@ -609,7 +610,7 @@ footer {
         background-size: cover;
         background-size: cover;
         margin-bottom: 50px;
-        height: 120vh;
+        height: 140vh;
     }
     .overlay-item h3 {
         font-size: 16px;
@@ -626,17 +627,17 @@ footer {
     .fall-item p {
         font-size: 13px;
     }
-
+   
     .contact-block1 {
         flex-direction: column;
         display: flex;
     }
     .overlay-item  {
-        width: 250px;  
+        width: 100%;  
         justify-content: center;
     }
     .fall-item {
-        width: 250px;
+        width: 200px;
     }
    
     .footer {
