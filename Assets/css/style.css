@@ -295,6 +295,7 @@ a:hover .code-github {
  }
  .overlay-item p {
     font-style: italic;
+    font-size: 14px;
  }
  .overlay-item a.btn {
    margin: 10px 0;
@@ -400,6 +401,7 @@ a:hover .code-github {
     overflow: hidden;
     position: relative;
     text-align: center;
+    
  }
  .fall-item .mask,.fall-item .content {
     width: 100%;
@@ -430,6 +432,7 @@ a:hover .code-github {
     color: #fff;
     padding: 10px 20px 20px;
     text-align: center;
+    font-size: 14px;
  }
  .fall-effect .mask {
     background-color: rgba(255, 255, 255, 0.7);
