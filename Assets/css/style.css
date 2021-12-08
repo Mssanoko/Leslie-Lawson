@@ -66,8 +66,9 @@ a:link {
 }
 
 .logo {
-    width: 50%;
+    width: 40%;
 }
+
 
 /* Change navbar styling on scroll */
 .navbar.active {
@@ -88,7 +89,9 @@ a:link {
 .navbar.active .navbar-brand {
     color: #523a28;
 }
-
+.navbar-toggler {
+    color: #523a28;
+}
 
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
@@ -99,8 +102,10 @@ a:link {
     .navbar .navbar-brand, .navbar .nav-link {
         color: #523a28;
     }
+    .logo {
+        width: 20%;
+    }
 }
-
 
 
 
@@ -257,7 +262,7 @@ a:hover .code-github {
         font-size: 20px;
     }
     .logo {
-        width: 30%; 
+        width: 20%; 
     }
     .navbar-toggler {
         margin-left: -200px;
@@ -267,7 +272,7 @@ a:hover .code-github {
 
 @media screen and (max-width: 495px) {
     .logo {
-        width: 25%; 
+        width: 20%; 
     }
     .navbar-toggler {
         margin-left: -250px;
@@ -277,7 +282,7 @@ a:hover .code-github {
 
 @media screen and (max-width: 445px) {
     .logo {
-        width: 25%; 
+        width: 20%; 
     }
     .navbar-toggler {
         margin-left: -650px;
@@ -691,6 +696,7 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+
 }
 
 
