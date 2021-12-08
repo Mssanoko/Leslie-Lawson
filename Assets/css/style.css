@@ -256,6 +256,12 @@ a:hover .code-github {
     .tab-content h3 { 
         font-size: 20px;
     }
+    .logo {
+        width: 30%;
+    }
+    .navbar-toggler {
+        margin-left: -200px;
+    }
 }
 /* Contact Session */
 
