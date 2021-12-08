@@ -45,6 +45,9 @@ h1, h2 {
     color: #f5f5f5;
 }
 
+.logo {
+    width: 40%;
+}
 
 /* Change navbar styling on scroll */
 .navbar.active {
@@ -75,6 +78,9 @@ h1, h2 {
 
     .navbar .navbar-brand, .navbar .nav-link {
         color: #523a28;
+    }
+    .logo {
+        width: 20%;
     }
 }
 
@@ -219,8 +225,35 @@ footer {
     display: flex;
     align-items: center;
    }
-   .commitments {
-       
-   }
+   
 }
 
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 20%; 
+    }
+    .navbar-toggler {
+        margin-left: -200px;
+        color: #523a28;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .logo {
+        width: 20%; 
+    }
+    .navbar-toggler {
+        margin-left: -250px;
+        color: #523a28;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .logo {
+        width: 20%; 
+    }
+    .navbar-toggler {
+        margin-left: -650px;
+        color: #523a28;
+    }
+}
